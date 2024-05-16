@@ -173,6 +173,7 @@ func Provider() *schema.Provider {
 			"netbox_tag":               dataSourceNetboxTag(),
 			"netbox_tags":              dataSourceNetboxTags(),
 			"netbox_virtual_machines":  dataSourceNetboxVirtualMachine(),
+            "netbox_virtual_disk":      dataSourceNetboxVirtualDisk(),
 			"netbox_interfaces":        dataSourceNetboxInterfaces(),
 			"netbox_device_interfaces": dataSourceNetboxDeviceInterfaces(),
 			"netbox_ipam_role":         dataSourceNetboxIPAMRole(),
